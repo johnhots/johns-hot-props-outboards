@@ -1,0 +1,37 @@
+# John's Hot Props & Outboards
+# Primary brand-search targets:
+# - John hot prop outboard
+# - John hot outboard
+#
+# robots.txt controls crawler access. SEO metadata belongs in the homepage <head>.
+# AI-readable business context is provided separately at /llms.txt.
+
+User-agent: *
+Allow: /
+Allow: /llms.txt
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+Sitemap: https://johnhotpropsoutboard.com/sitemap.xml
